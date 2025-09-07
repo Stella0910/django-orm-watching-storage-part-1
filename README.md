@@ -25,7 +25,7 @@ pip install -r requirements.txt
     BD_NAME='имя базы данных'
     BD_USER='имя пользователя'
     BD_PASSWORD='пароль'
-    BD_SECRET_KEY='секретный ключ'
+    SITE_SECRET_KEY='секретный ключ сайта'
     ```
 * Запустите программу командой
 ```py
