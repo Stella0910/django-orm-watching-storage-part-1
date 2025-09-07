@@ -6,12 +6,13 @@
 
 ## Как установить
 
-* Клонируйте репозиторий c github
+* Установите Python (Используется Python версии 3.13.2)
+* Клонируйте репозиторий c GitHub
 ```py
 git clone https://github.com/Stella0910/django-orm-watching-storage-part-1
 ```
 * Создайте виртуальное окружение
-* Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:
+* Затем используйте `pip` для установки зависимостей:
 ```py
 pip install -r requirements.txt
 ```
@@ -20,6 +21,7 @@ pip install -r requirements.txt
     * Сохраните в нём переменные
     ```py
     HOST_BD='адрес сервера'
+    BD_PORT='порт для подключения к базе данных'
     NAME_BD='имя базы данных'
     USER_BD='имя пользователя'
     PASSWORD_BD='пароль'
