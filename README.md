@@ -6,11 +6,15 @@
 
 ## Как установить
 
-* Клонируйте репозиторий c github  
-`git clone https://github.com/Stella0910/django-orm-watching-storage-part-1`
+* Клонируйте репозиторий c github
+```py
+git clone https://github.com/Stella0910/django-orm-watching-storage-part-1
+```
 * Создайте виртуальное окружение
-* Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:  
-`pip install -r requirements.txt`
+* Затем используйте `pip` (или `pip3`, есть конфликт с Python2) для установки зависимостей:
+```py
+pip install -r requirements.txt
+```
 * Переменные окружения:
     * Создайте файл `.env` в корневой директории проекта
     * Сохраните в нём переменные
@@ -21,7 +25,10 @@
     PASSWORD_BD='пароль'
     SECRET_KEY_BD='секретный ключ'
     ```
-* Запустите программу командой `python main.py`
+* Запустите программу командой
+```py
+python main.py
+```
 
 ## Цель проекта
 
