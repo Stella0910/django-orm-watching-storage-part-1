@@ -3,17 +3,17 @@ import os
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'HOST': os.getenv('HOST_BD'),
-        'PORT': '5434',
-        'NAME': os.getenv('NAME_BD'),
-        'USER': os.getenv('USER_BD'),
-        'PASSWORD': os.getenv('PASSWORD_BD'),
+        'HOST': os.getenv('BD_HOST'),
+        'PORT': os.getenv('BD_PORT'),
+        'NAME': os.getenv('BD_NAME'),
+        'USER': os.getenv('BD_USER'),
+        'PASSWORD': os.getenv('BD_PASSWORD'),
     }
 }
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = os.getenv('SECRET_KEY_BD')
+SECRET_KEY = os.getenv('BD_SECRET_KEY')
 
 TIME_ZONE = 'Europe/Moscow'
 
